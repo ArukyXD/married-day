@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Segoe+UI&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fff0f6, #ffe4ec);
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(to right, #ff4081, #f50057);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    h1 {
+      margin: 0;
+      font-size: 3.5rem;
+      font-family: 'Great Vibes', cursive;
+    }
+    p.subtitle {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      transition: transform 0.4s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .momento {
+      background: white;
+      padding: 1rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .momento p {
+      margin-top: 0.7rem;
+      font-weight: 600;
+      color: #c2185b;
+    }
+    footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      font-style: italic;
+      color: #555;
+      background-color: #fff0f6;
+      font-size: 1.1rem;
+    }
+    .carta {
+      background: #fffafc;
+      padding: 3rem 2rem;
+      margin: 3rem auto;
+      border-radius: 2rem;
+      max-width: 900px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    .carta h2 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: #d81b60;
+      margin-bottom: 1.5rem;
+    }
+    .carta p {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+    .heart {
+      animation: pulse 2s infinite;
+      display: inline-block;
+      color: #ff1744;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .surpresa-btn {
+      display: block;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: #f50057;
+      color: white;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .surpresa-btn:hover {
+      background-color: #c51162;
+    }
+    .surpresa-msg {
+      display: none;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #d81b60;
+      margin-top: 2rem;
+      animation: fadeIn 2s forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .player-container {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Player de música -->
+  <div class="player-container">
+    <audio controls autoplay muted loop onplay="this.muted=false">
+      <source src="https://github.com/ArukyXD/married-day/raw/main/musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio embutido.
+    </audio>
+  </div>
+
+  <header>
+    <h1>Feliz Dia dos Namorados Minha Princesa 💘</h1>
+    <p class="subtitle">Uma lembrança cheia de carinho e momentos que pra foram inesquecíveis.</p>
+  </header>
+
+  <section class="carta">
+    <h2>Minha Carta para Você <span class="heart">❤️</span></h2>
+    <p>
+      Cada momento ao seu lado da cor ao meu mundo tão frio e torna tudo mais bonito.<br>
+      Suas risadas, seus abraços, suas palavras… tudo em você me encanta.<br>
+      Neste Dia dos Namorados, quero te lembrar o quanto você é importante pra mim.<br>
+      Que essa nossa história continue sendo escrita com muito amor, carinho e cumplicidade.<br>
+      Você é a razão do meu sorriso, a luz dos meus dias e o amor da minha vida.<br>
+      Você é a minha princesa, você é a minha garotinha mágica e eu prometo te fazer feliz todos os dias da minha vida.<br>
+      Eu te amo mais que tudo e você não tem noção do quanto meu peito enche de amor por ti meu amor! 💖
+    </p>
+  </section>
+
+  <section class="gallery">
+    <div class="momento">
+      <img src="1-encontro.jpg" alt="Nosso encontro">
+      <p>O dia em que meu mundo ganhou cor 💫</p>
+    </div>
+    <div class="momento">
+      <img src="1-certeza.jpg" alt="Certeza">
+      <p>O dia que de fato eu tive certeza que você seria minha esposa. 👰🏻</p>
+    </div>
+    <div class="momento">
+      <img src="1-sorrisos.jpg" alt="Risadas">
+      <p>Nossos sorrisos são as confirmações que sempre precisávamos! 😊</p>
+    </div>
+    <div class="momento">
+      <img src="1-maismarcante.jpg" alt="Dia da Surpresa">
+      <p>O dia em que te surpreendi com amor, mas acabei sendo surpreendido. 🎁</p>
+    </div>
+    <div class="momento">
+      <img src="1-especial.jpg" alt="Dia extremamente especial">
+      <p>Dia que ficamos sem fazer nada, ouvindo MPB e falando sobre o nosso futuro. 😍</p>
+    </div>
+  </section>
+
+  <button class="surpresa-btn" onclick="mostrarMensagem()">Clique para uma surpresa 💌</button>
+  <div class="surpresa-msg" id="mensagemSurpresa">
+    Você é o melhor presente que a vida me deu. Eu te amo mais que tudo e palavra nenhuma chega perto do amor que sinto por ti! 💕
+  </div>
+
+  <footer>
+    <p>Eu te amo infinitamente mais a cada dia. 💖 Para sempre seu Marido!</p>
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById('mensagemSurpresa').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
